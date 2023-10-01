@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <head>
-    <title>Pruebaa</title>
-    <style>
-        .container{
-            margin: auto;
-            background-color: aqua;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Crud</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="funciones.js"></script>
 </head>
 <body>
     <div class="container">
-        <center>
-            <h1>Archivo Prueba version 1</h1>
-        </center>
+        <table class="formulario">
+            <tr>
+                <td class="titulo">Id</td>
+                <td><input class="textrecp" type="number" id="id"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Nombre</td>
+                <td><input class="textrecp" type="text" id="Name"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Cantidad</td>
+                <td><input class="textrecp" type="number" id="cant"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Precio</td>
+                <td><input class="textrecp" type="number" id="price"></td>
+            </tr>
+            <tr>
+                <td class="titulo">Descripcion</td>
+                <td><input class="textrecp" type="text" id="desc"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="add">Crear</button></td>
+            </tr>
+        </table>
+        <div id="res">
+            ass
+        </div>
+        <table class="tabla-res">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Descripcion</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
     </div>
     
 </body>
